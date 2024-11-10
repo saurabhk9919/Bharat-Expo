@@ -54,6 +54,7 @@
 #     return {"recommendations": recommendations}
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -68,6 +69,15 @@ tfidf_matrix = tfidf_vectorizer.fit_transform(df['description'])
 
 # FastAPI setup
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://127.0.0.1:3000"],  # Allow requests from your frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 # Request model
 class CourseIDRequest(BaseModel):

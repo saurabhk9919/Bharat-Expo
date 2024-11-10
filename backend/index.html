@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="course-container" class="course-container"></div>
+    <script>async function getRecommendations(videoId) {
+        try {
+            const response = await fetch('http://127.0.0.1:8000/recommend/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ course_id: videoId }), // The key must match what the FastAPI backend expects
+            });
+    
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+    
+            let recommendedCourses = [];
+            const data = await response.json();
+            for (let i = 0; i < data.recommended_courses.length; i++) {
+                recommendedCourses.push(data.recommended_courses[i].videoId);
+                console.log('Recommended Course ID:', data.recommended_courses[i].videoId);
+            }
+            return recommendedCourses;
+        } catch (error) {
+            console.error('Error fetching recommendations:', error);
+        }
+    }
+    
+    async function fetching() {
+        let new_courses = await getRecommendations('sM2C-SsREgM');
+        console.log(new_courses);
+        populateHTML(new_courses);
+    }
+    
+    function populateHTML(courseIds) {
+        const container = document.getElementById('course-container'); // Make sure this container exists in your HTML
+        container.innerHTML = ''; // Clear any previous content
+    
+        courseIds.forEach(videoId => {
+            // Create an element for each course (e.g., a div, link, etc.)
+            const courseElement = document.createElement('div');
+            courseElement.textContent = `Video ID: ${videoId}`; // You can customize the content here
+            
+            // Optionally, you can add a link to open the YouTube video
+            const linkElement = document.createElement('a');
+            linkElement.href = `https://www.youtube.com/watch?v=${videoId}`;
+            linkElement.target = '_blank';
+            linkElement.textContent = `Watch Video: ${videoId}`;
+            
+            // Append the link or other elements
+            courseElement.appendChild(linkElement);
+    
+            // Add to the container
+            container.appendChild(courseElement);
+        });
+    }
+    
+    // Call fetching function to test
+    fetching();
+    </script>
+</body>
+</html>

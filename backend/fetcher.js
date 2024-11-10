@@ -1,4 +1,3 @@
-const recommendedCourses =[];
 async function getRecommendations(videoId) {
     try {
       const response = await fetch('http://127.0.0.1:8000/recommend/', {
@@ -12,13 +11,12 @@ async function getRecommendations(videoId) {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
-  
+      let recommendedCourses = [];
       const data = await response.json();
       for(let i=0;i<data.recommended_courses.length;i++){
-          recommendedCourses.push(data.recommended_courses[i].videoId);
+        recommendedCourses.push(data.recommended_courses[i].videoId);
       console.log('Recommended Courses:', data.recommended_courses[i].videoId);
       }
-      console.log(recommendedCourses);
     //   const recommendedCourses = data.recommended_courses;
       return recommendedCourses;
     } catch (error) {
@@ -26,4 +24,9 @@ async function getRecommendations(videoId) {
     }
   }
 
-getRecommendations('sM2C-SsREgM');
+async function fetching(){
+    let new_courses=await getRecommendations('sM2C-SsREgM');
+    console.log(new_courses);
+}
+// getRecommendations('sM2C-SsREgM');
+fetching();
