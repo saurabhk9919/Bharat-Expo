@@ -1,0 +1,5 @@
+100 Days of Deep Learning | Course Announcement
+What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
+Types of Neural Networks | History of Deep Learning | Applications of Deep Learning
+What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition
+Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course

@@ -1,0 +1,246 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "iG7q8g5dlCt2bXMAxa3dycnZXKU",
+    "nextPageToken": "EAAajgFQVDpDQVVpRURFeVJVWkNNMEl4UXpVM1JFVTBSVEVvQVVpMmtjaTFycW1JQTFBQldrVWlRMmxLVVZSRmRIVlRWVVY0VG13NVUySllXbHBrVm5Cb1pGWmthRlZIZUZOV1JVMHhUa1YwTkZVd05VMWtSVFYxUldkM1NUQmlhbWgwWjFsUk9FeHRRVEYzVFNJ",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "ISODA3VqOEEzWqsiE4lJz-QR6-o",
+            "id": "UExLbklBMTZfUm12WXVaYXVXYVBsUlRDNTRLeFNOTHRObi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2022-02-15T12:13:43Z",
+                "channelId": "UCCWi3hpnq_Pe03nGxuS7isg",
+                "title": "100 Days of Deep Learning | Course Announcement",
+                "description": "So we are finally starting with 100 days of Deep Learning Playlist!\n\nIf you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science! Share your thoughts, experiences, or questions in the comments below. I love hearing from you!\n\n\ud83d\udcf1 Grow with us:\nCampusX' LinkedIn: https://www.linkedin.com/company/campusx-official\nCampusX on Instagram for daily tips: https://www.instagram.com/campusx.official\nMy LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789\nDiscord: https://discord.gg/PsWu8R87Z8\nE-mail us at support@campusx.in",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2dH_qjc9mFg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2dH_qjc9mFg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2dH_qjc9mFg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2dH_qjc9mFg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/2dH_qjc9mFg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "CampusX",
+                "playlistId": "PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2dH_qjc9mFg"
+                },
+                "videoOwnerChannelTitle": "CampusX",
+                "videoOwnerChannelId": "UCCWi3hpnq_Pe03nGxuS7isg"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "HrFcydqpkBDc0vbLDr7xWo0xwr0",
+            "id": "UExLbklBMTZfUm12WXVaYXVXYVBsUlRDNTRLeFNOTHRObi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2022-02-17T00:49:41Z",
+                "channelId": "UCCWi3hpnq_Pe03nGxuS7isg",
+                "title": "What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course",
+                "description": "Deep Learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks). It is designed to automatically learn hierarchical representations of data through the composition of increasingly complex features.\n\nDeep Learning vs. Machine Learning:\n\nDepth of Representation: Deep Learning involves deep neural networks with multiple layers, allowing it to learn intricate features automatically.\nFeature Engineering: Deep Learning often eliminates the need for manual feature engineering as it learns hierarchical representations.\nTask Complexity: While both are used for various tasks, Deep Learning excels in complex tasks like image and speech recognition.\nData Requirements: Deep Learning models typically require more data for training.\n\n============================\nDo you want to learn from me?\nCheck my affordable mentorship program at : https://learnwith.campusx.in\n============================\n\n\ud83d\udcf1 Grow with us:\nCampusX' LinkedIn: https://www.linkedin.com/company/campusx-official\nCampusX on Instagram for daily tips: https://www.instagram.com/campusx.official\nMy LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789\nDiscord: https://discord.gg/PsWu8R87Z8\nE-mail us at support@campusx.in\n\n\ud83d\udc4dIf you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!\n\n\ud83d\udcadShare your thoughts, experiences, or questions in the comments below. I love hearing from you!\n\n\u2728 Hashtags\u2728\n#DeepLearning #MachineLearning #NeuralNetworks #ArtificialIntelligence #DataScience\n\n\u231aTime Stamps\u231a\n\n0:00 - Intro\n1:52 - Deep Learning Definition 1\n13:17 - Deep Learning Definition 2\n20:00 - Deep Learning Vs Machine Learning\n34:45 - Factors Behind Deep Learning's Success\n1:06:00 - Outro",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fHF22Wxuyw4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fHF22Wxuyw4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fHF22Wxuyw4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fHF22Wxuyw4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fHF22Wxuyw4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "CampusX",
+                "playlistId": "PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fHF22Wxuyw4"
+                },
+                "videoOwnerChannelTitle": "CampusX",
+                "videoOwnerChannelId": "UCCWi3hpnq_Pe03nGxuS7isg"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Y6ncLpoo-a5LEp0QPb031DYJUKI",
+            "id": "UExLbklBMTZfUm12WXVaYXVXYVBsUlRDNTRLeFNOTHRObi4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2022-02-17T12:22:56Z",
+                "channelId": "UCCWi3hpnq_Pe03nGxuS7isg",
+                "title": "Types of Neural Networks | History of Deep Learning | Applications of Deep Learning",
+                "description": "In this video, we'll break down the different types of neural networks, take a journey through the history of deep learning, and uncover real-world applications. Share your thoughts, experiences, or questions in the comments below. I love hearing from you!\n\n1. About ANN - https://en.wikipedia.org/wiki/Artificial_neural_network\n2. About CNN - https://en.wikipedia.org/wiki/Convolutional_neural_network\n3. yann le cunn - https://en.wikipedia.org/wiki/Yann_LeCun\n4. About RNN - https://en.wikipedia.org/wiki/Recurrent_neural_network\n5. About Autoencoders - https://en.wikipedia.org/wiki/Autoencoder\n6. About GAN - https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/ \n7. Unsupervised Pre-training - https://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf\n8. ImageNET - https://www.image-net.org/\n9. Alphago - https://www.youtube.com/watch?v=WXuK6gekU1Y\n10. Image Colorization - https://pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/\n11. Audio gen in mute video - https://www.youtube.com/watch?v=QZGqLlsNArg\n12. Image Caption gen - https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/\n13. Pixel Restoration - https://www.analyticsvidhya.com/blog/2021/05/deep-learning-for-image-super-resolution/\n14. This person does not exist - https://thispersondoesnotexist.com/\n15. AI generates story - https://www.youtube.com/watch?v=LY7x2Ihqjmc\n15. Deep Dream - https://www.youtube.com/watch?v=nelv5kkNxis\n\n============================\nDo you want to learn from me?\nCheck my affordable mentorship program at : https://learnwith.campusx.in\n============================\n\n\ud83d\udcf1 Grow with us:\nCampusX' LinkedIn: https://www.linkedin.com/company/campusx-official\nCampusX on Instagram for daily tips: https://www.instagram.com/campusx.official\nMy LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789\nDiscord: https://discord.gg/PsWu8R87Z8\n\n\u231aTime Stamps\u231a\n\n0:00 - Intro\n2:05 - Types of Neural Network\n8:25 - History of Deep Learning\n20:48 - Applications of Deep Learning\n32:13 - Outro\n\n\u2728 Hashtags\u2728\n#NeuralNetworks #DeepLearningHistory #AIApplications #EasyLearning",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fne_UE7hDn0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fne_UE7hDn0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fne_UE7hDn0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fne_UE7hDn0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fne_UE7hDn0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "CampusX",
+                "playlistId": "PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fne_UE7hDn0"
+                },
+                "videoOwnerChannelTitle": "CampusX",
+                "videoOwnerChannelId": "UCCWi3hpnq_Pe03nGxuS7isg"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "hZ9XYEIhIoCj5PCsOayZ7oTSgqI",
+            "id": "UExLbklBMTZfUm12WXVaYXVXYVBsUlRDNTRLeFNOTHRObi41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2022-02-19T02:35:49Z",
+                "channelId": "UCCWi3hpnq_Pe03nGxuS7isg",
+                "title": "What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition",
+                "description": "Code - https://github.com/campusx-official/100-days-of-deep-learning/tree/main/day3\n\nDigital Notes for Deep Learning: https://shorturl.at/NGtXg\n\nA Perceptron is a simple type of artificial neural network algorithm developed by Frank Rosenblatt in 1957. It's the basic unit of a neural network, taking multiple binary inputs and producing a single binary output. It computes a weighted sum of its input, applies an activation function, and produces an output.\n\nPerceptron vs. Neuron:\n\nPerceptron: Refers specifically to the algorithm developed by Rosenblatt, typically using a step function as the activation.\nNeuron: A more general term used in the context of biological and artificial neural networks. It encompasses various activation functions beyond the step function.\n\n============================\nDo you want to learn from me?\nCheck my affordable mentorship program at : https://learnwith.campusx.in\n============================\n\n\ud83d\udcf1 Grow with us:\nCampusX' LinkedIn: https://www.linkedin.com/company/campusx-official\nCampusX on Instagram for daily tips: https://www.instagram.com/campusx.official\nMy LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789\nDiscord: https://discord.gg/PsWu8R87Z8\nE-mail us at support@campusx.in\n\n\ud83d\udc4dIf you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!\n\n\ud83d\udcadShare your thoughts, experiences, or questions in the comments below. I love hearing from you!\n\n\u2728 Hashtags\u2728\n#Perceptron #Neuron #NeuralNetworks #MachineLearning #ArtificialIntelligence #DataScience\n\n\u231aTime Stamps\u231a\n\n0:00 Introduction\n2:08 What is a Perceptron?\n14:30 Neuron Vs Perceptron\n22:52 Geometric Intuition\n33:53 Code Example\n38:04 Outro",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/X7iIKPoZ0Sw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/X7iIKPoZ0Sw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/X7iIKPoZ0Sw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/X7iIKPoZ0Sw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/X7iIKPoZ0Sw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "CampusX",
+                "playlistId": "PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "X7iIKPoZ0Sw"
+                },
+                "videoOwnerChannelTitle": "CampusX",
+                "videoOwnerChannelId": "UCCWi3hpnq_Pe03nGxuS7isg"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0ColIR738WxuGV1tHLsALStGXow",
+            "id": "UExLbklBMTZfUm12WXVaYXVXYVBsUlRDNTRLeFNOTHRObi4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2022-02-23T12:16:35Z",
+                "channelId": "UCCWi3hpnq_Pe03nGxuS7isg",
+                "title": "Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course",
+                "description": "Code - https://github.com/campusx-official/100-days-of-deep-learning/tree/main/day4\n\nDigital Notes for Deep Learning: https://shorturl.at/NGtXg\n\nTraining a Perceptron involves adjusting its weights to correctly classify input data. The process typically follows these steps:\n\nInitialize Weights: Set initial weights randomly.\nForward Pass: Compute the weighted sum of inputs and pass it through an activation function.\nCalculate Error: Compare the predicted output with the actual target.\nUpdate Weights: Adjust weights based on the error using a learning rate and the gradient descent algorithm.\nRepeat: Iterate through the dataset multiple times (epochs) until the model converges.\n\n============================\nDo you want to learn from me?\nCheck my affordable mentorship program at : https://learnwith.campusx.in\n============================\n\n\ud83d\udcf1 Grow with us:\nCampusX' LinkedIn: https://www.linkedin.com/company/campusx-official\nCampusX on Instagram for daily tips: https://www.instagram.com/campusx.official\nMy LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789\nDiscord: https://discord.gg/PsWu8R87Z8\nE-mail us at support@campusx.in\n\n\ud83d\udc4dIf you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!\n\n\ud83d\udcadShare your thoughts, experiences, or questions in the comments below. I love hearing from you!\n\n\u2728 Hashtags\u2728\n#PerceptronTraining #NeuralNetworks #MachineLearning #GradientDescent #DataScience #PerceptronAlgorithm\n\n\u231aTime Stamps\u231a\n\n00:00 - Intro\n01:20 - Perceptron Trick\n10:35 - How to Label regions?\n13:25 - Transformations\n25:00 - Coding the Algorithm\n36:00 - Simplified Algorithm\n41:20 - Code Demo\n51:16 - Outro",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Lu2bruOHN6g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Lu2bruOHN6g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Lu2bruOHN6g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Lu2bruOHN6g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Lu2bruOHN6g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "CampusX",
+                "playlistId": "PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Lu2bruOHN6g"
+                },
+                "videoOwnerChannelTitle": "CampusX",
+                "videoOwnerChannelId": "UCCWi3hpnq_Pe03nGxuS7isg"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 84,
+        "resultsPerPage": 5
+    }
+}

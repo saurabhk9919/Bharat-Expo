@@ -1,0 +1,166 @@
+title,description,publishedAt,channelTitle,videoId
+100 Days of Deep Learning | Course Announcement,"So we are finally starting with 100 days of Deep Learning Playlist!
+
+If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science! Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in",2022-02-15T12:13:43Z,CampusX,2dH_qjc9mFg
+What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course,"Deep Learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks). It is designed to automatically learn hierarchical representations of data through the composition of increasingly complex features.
+
+Deep Learning vs. Machine Learning:
+
+Depth of Representation: Deep Learning involves deep neural networks with multiple layers, allowing it to learn intricate features automatically.
+Feature Engineering: Deep Learning often eliminates the need for manual feature engineering as it learns hierarchical representations.
+Task Complexity: While both are used for various tasks, Deep Learning excels in complex tasks like image and speech recognition.
+Data Requirements: Deep Learning models typically require more data for training.
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#DeepLearning #MachineLearning #NeuralNetworks #ArtificialIntelligence #DataScience
+
+⌚Time Stamps⌚
+
+0:00 - Intro
+1:52 - Deep Learning Definition 1
+13:17 - Deep Learning Definition 2
+20:00 - Deep Learning Vs Machine Learning
+34:45 - Factors Behind Deep Learning's Success
+1:06:00 - Outro",2022-02-17T00:49:41Z,CampusX,fHF22Wxuyw4
+Types of Neural Networks | History of Deep Learning | Applications of Deep Learning,"In this video, we'll break down the different types of neural networks, take a journey through the history of deep learning, and uncover real-world applications. Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+1. About ANN - https://en.wikipedia.org/wiki/Artificial_neural_network
+2. About CNN - https://en.wikipedia.org/wiki/Convolutional_neural_network
+3. yann le cunn - https://en.wikipedia.org/wiki/Yann_LeCun
+4. About RNN - https://en.wikipedia.org/wiki/Recurrent_neural_network
+5. About Autoencoders - https://en.wikipedia.org/wiki/Autoencoder
+6. About GAN - https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/ 
+7. Unsupervised Pre-training - https://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf
+8. ImageNET - https://www.image-net.org/
+9. Alphago - https://www.youtube.com/watch?v=WXuK6gekU1Y
+10. Image Colorization - https://pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/
+11. Audio gen in mute video - https://www.youtube.com/watch?v=QZGqLlsNArg
+12. Image Caption gen - https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/
+13. Pixel Restoration - https://www.analyticsvidhya.com/blog/2021/05/deep-learning-for-image-super-resolution/
+14. This person does not exist - https://thispersondoesnotexist.com/
+15. AI generates story - https://www.youtube.com/watch?v=LY7x2Ihqjmc
+15. Deep Dream - https://www.youtube.com/watch?v=nelv5kkNxis
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+⌚Time Stamps⌚
+
+0:00 - Intro
+2:05 - Types of Neural Network
+8:25 - History of Deep Learning
+20:48 - Applications of Deep Learning
+32:13 - Outro
+
+✨ Hashtags✨
+#NeuralNetworks #DeepLearningHistory #AIApplications #EasyLearning",2022-02-17T12:22:56Z,CampusX,fne_UE7hDn0
+What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition,"Code - https://github.com/campusx-official/100-days-of-deep-learning/tree/main/day3
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+A Perceptron is a simple type of artificial neural network algorithm developed by Frank Rosenblatt in 1957. It's the basic unit of a neural network, taking multiple binary inputs and producing a single binary output. It computes a weighted sum of its input, applies an activation function, and produces an output.
+
+Perceptron vs. Neuron:
+
+Perceptron: Refers specifically to the algorithm developed by Rosenblatt, typically using a step function as the activation.
+Neuron: A more general term used in the context of biological and artificial neural networks. It encompasses various activation functions beyond the step function.
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#Perceptron #Neuron #NeuralNetworks #MachineLearning #ArtificialIntelligence #DataScience
+
+⌚Time Stamps⌚
+
+0:00 Introduction
+2:08 What is a Perceptron?
+14:30 Neuron Vs Perceptron
+22:52 Geometric Intuition
+33:53 Code Example
+38:04 Outro",2022-02-19T02:35:49Z,CampusX,X7iIKPoZ0Sw
+Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course,"Code - https://github.com/campusx-official/100-days-of-deep-learning/tree/main/day4
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Training a Perceptron involves adjusting its weights to correctly classify input data. The process typically follows these steps:
+
+Initialize Weights: Set initial weights randomly.
+Forward Pass: Compute the weighted sum of inputs and pass it through an activation function.
+Calculate Error: Compare the predicted output with the actual target.
+Update Weights: Adjust weights based on the error using a learning rate and the gradient descent algorithm.
+Repeat: Iterate through the dataset multiple times (epochs) until the model converges.
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#PerceptronTraining #NeuralNetworks #MachineLearning #GradientDescent #DataScience #PerceptronAlgorithm
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:20 - Perceptron Trick
+10:35 - How to Label regions?
+13:25 - Transformations
+25:00 - Coding the Algorithm
+36:00 - Simplified Algorithm
+41:20 - Code Demo
+51:16 - Outro",2022-02-23T12:16:35Z,CampusX,Lu2bruOHN6g
