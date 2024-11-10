@@ -19,7 +19,8 @@ def main():
 
     request = youtube.playlistItems().list(
         part="snippet",
-        playlistId="PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn"
+        playlistId="PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+        maxResults=83            # For the number of videos from the playlist
     )
     response = request.execute()
 
@@ -62,4 +63,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

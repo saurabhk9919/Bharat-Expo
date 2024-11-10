@@ -164,3 +164,1398 @@ E-mail us at support@campusx.in
 36:00 - Simplified Algorithm
 41:20 - Code Demo
 51:16 - Outro",2022-02-23T12:16:35Z,CampusX,Lu2bruOHN6g
+Perceptron Loss Function | Hinge Loss | Binary Cross Entropy | Sigmoid Function,"The Perceptron Loss Function is a measure used to quantify how well a perceptron classifies data points. Common loss functions for perceptrons include:
+
+Hinge Loss: Suitable for binary classification problems, encouraging correct classifications with a margin.
+Binary Cross Entropy: Often used with sigmoid activation for binary classification, measuring the dissimilarity between predicted and actual probabilities.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Perceptron Loss Function - https://scikit-learn.org/stable/modules/sgd.html
+
+Code - https://github.com/campusx-official/100-days-of-deep-learning/tree/main/day5%20-%20Perceptron%20Loss%20Function
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#PerceptronLossFunction #HingeLoss #BinaryCrossEntropy #SigmoidFunction #MachineLearning #NeuralNetworks #datascience 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:31 - Recap
+06:01 - Problem with perceptron trick
+10:35 - Loss Function
+15:08 - Perceptron Loss Function
+21:46 - SkLearn Documentation
+27:51 - Explanation of loss function
+39:08 - Gradient Descent
+44:59 - Code Demo
+47:54 - More Loss Functions
+58:18 - Outro",2022-02-25T12:04:31Z,CampusX,2_gCL5RAkHc
+Problem with Perceptron,"The problem with Perceptrons lies in their limitation to learn complex patterns and functions, especially those that are not linearly separable. A Perceptron is a single-layer neural network with binary outputs, and it can only solve problems where the data points are linearly separable. If the data is not linearly separable, a Perceptron cannot converge and find a solution.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1x6detmf4WAUAT2pfdCts-dVrqnz4_gNB?usp=sharing
+
+TensorFlow Playground - https://playground.tensorflow.org/
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#Perceptrons #NeuralNetworks #MachineLearning #DataScience #LinearSeparability #LimitationsInPerceptrons",2022-02-26T03:07:06Z,CampusX,Jp44b27VnOg
+MLP Notation,"Multi-Layer Perceptron (MLP) Notation refers to the symbolic representation used to illustrate the architecture and connections within a neural network. In MLP, nodes (neurons) are organized into layers, including an input layer, hidden layers, and an output layer. The notation visually represents the flow of information between layers through weights and activation functions.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#MLPNotation #NeuralNetworkArchitecture #DeepLearning #DataScience #MachineLearning #NeuralNetworkRepresentation #MLPStructure",2022-02-26T03:08:14Z,CampusX,H0_3SJh4Rqs
+Multi Layer Perceptron | MLP Intuition,"A Multi-Layer Perceptron (MLP) is a type of artificial neural network characterized by its multiple layers of nodes (neurons). It consists of an input layer, one or more hidden layers, and an output layer. Each connection between nodes is associated with a weight, and each node applies an activation function to the weighted sum of its inputs. MLPs are trained using algorithms like backpropagation to learn and make predictions.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Tensorflow Playground - https://playground.tensorflow.org/
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#MLP #MultiLayerPerceptron #NeuralNetworks #DeepLearning #ArtificialIntelligence #DataScience #machinelearning 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:28 - The problem
+02:42 - Perceptron with Sigmoid
+23:56 - Adding nodes in hidden layer
+26:58 - Adding nodes in input
+28:50 - Adding nodes in output node
+29:53 - Deep Neural Network
+31:53 - TF Playground Demo
+37:21 - Outro",2022-02-26T05:45:31Z,CampusX,qw7wFGgNCSU
+Forward Propagation | How a neural network predicts output?,"Forward Propagation is a fundamental step in the functioning of neural networks. It involves the transmission of input data through the network's layers to produce an output. Each layer processes the input using weights and activation functions, ultimately generating a prediction. This process is crucial for understanding how neural networks make predictions.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#ForwardPropagation #NeuralNetworks #MachineLearningBasics #PredictionGeneration #DataScience #NeuralNetworkMechanism",2022-03-05T02:18:01Z,CampusX,7MuiScUkboE
+Customer Churn Prediction using ANN | Keras and Tensorflow | Deep Learning Classification,"Customer Churn Prediction using Artificial Neural Networks (ANN) involves building a model to forecast whether a customer is likely to leave or continue using a service. The ANN learns from historical data, considering factors like usage patterns, customer interactions, and feedback to make predictions.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://www.kaggle.com/campusx/notebook8ad570467f
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#CustomerChurn #ANN #PredictiveAnalytics #CustomerRetention #MachineLearning #DataScience #BusinessAnalytics #neuralnetworks 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+02:22 - The Dataset
+03:28 - Code Demo
+17:49 - Neural Network Architecture
+32:45 - Training error reduction plot
+34:40 - Outro",2022-03-06T13:13:24Z,CampusX,9wmImImmgcI
+Handwritten Digit Classification using ANN | MNIST Dataset,"Handwritten Digit Classification using Artificial Neural Networks (ANN) involves training a model to recognize and classify handwritten digits, typically from 0 to 9. The ANN learns patterns from labeled datasets, allowing it to generalize and accurately identify handwritten digits in unseen data.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Link - https://colab.research.google.com/drive/1SqETl3Zi1EEesdJfEv6_QimB-M-YjKGx?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+E-mail us at support@campusx.in
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#MachineLearning #ImageRecognition #HandwrittenDigits #NeuralNetworks #DataScience #classificationmodel 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:40 - MNIST Dataset
+05:20 - Code Demo
+25:28 - Accuracy Plot
+28:06 - Outro",2022-03-09T03:21:28Z,CampusX,3xPT2Pk0Jds
+Graduate Admission Prediction using ANN,"In the world of artificial neural networks (ANN), predicting gre admissions becomes an exciting application. Using ANN, we create a predictive model that learns patterns from historical data, considering factors such as GRE scores, GPA, and other relevant features. The network optimizes its parameters during training to make accurate predictions regarding the likelihood of admission.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://www.kaggle.com/campusx/gre-admission-prediction
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#ArtificialNeuralNetworks #GraduateAdmissions #PredictiveModeling #DataScience #machinelearning 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:24 - Exploring the dataset
+06:28 - Neural Network Architecture
+16:45 - Curve Graph
+17:10 - Outro",2022-03-11T07:39:40Z,CampusX,RCmiPBiA4qg
+Loss Functions in Deep Learning | Deep Learning | CampusX,"In this video, we'll understand the concept of Loss Functions and their role in training neural networks. Join me for a straightforward explanation to grasp how these functions impact model performance. 
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#DeepLearning #LossFunctions #NeuralNetworks #MachineLearning #AI #LearningBasics #SimplifiedLearning #modeltraining 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:09 - What is loss function?
+11:08 - Loss functions in deep learning
+14:20 - Loss function vs cost function
+24:35 - Advantages/Disadvantages
+59:13 - Outro",2022-03-23T13:12:43Z,CampusX,gb5nm_3jBIo
+Backpropagation in Deep Learning | Part 1 | The What?,"In this video, we'll break down the fundamentals of Backpropagation, a key concept in neural networks. Join us for a simplified explanation and demystify the process that makes deep learning possible.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Video on Gradient Descent
+https://www.youtube.com/watch?v=ORyfPJypKuU&t=4072s&ab_channel=CampusX
+
+Video on Forward Propagation
+https://www.youtube.com/watch?v=7MuiScUkboE&ab_channel=CampusX
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#Backpropagation #NeuralNetworks #DeepLearning #MachineLearning #AI #LearningBasics #SimplifiedLearning
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+02:40 - What is Backpropagation?
+09:06 - Step by Step Explanation
+53:53 - Outro",2022-03-30T12:31:16Z,CampusX,6M1wWQmcUjQ
+Backpropagation Part 2 | The How | Complete Deep Learning Playlist,"In this video, we'll break down the fundamentals of Backpropagation, a key concept in neural networks. Join us for a simplified explanation and demystify the process that makes deep learning possible.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code used
+Regression - https://colab.research.google.com/drive/1kIljMvDFx7dyyDXTMsd1fEkg9Q24xhIE?usp=sharing
+Classification - https://colab.research.google.com/drive/1dJZZdhngq4eN83sQCupyh2QbyzrsBB-e?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#Backpropagation #DeepLearning #NeuralNetworks #LearningJourney #MachineLearning #AI #TutorialSeries #SimplifiedLearning
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:50 - Regression Problem
+05:08 - Code Demo
+29:50 - Classification Example
+59:24 - Outro",2022-04-03T12:35:26Z,CampusX,ma6hWrU-LaI
+Backpropagation Part 3 | The Why | Complete Deep Learning Playlist,"Don't forget to check out the complete Deep Learning playlist for a comprehensive learning experience!
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Backprop Google Tool
+https://developers-dot-devsite-v2-prod.appspot.com/machine-learning/crash-course/backprop-scroll
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#Backpropagation #DeepLearning #NeuralNetworks #LearningJourney #MachineLearning #AI #TutorialSeries #SimplifiedLearning
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:34 - The intuition behind the algorithm
+09:09 - Concept of Gradient
+14:22 - Concept of derivative
+19:05 - Concept of Minima
+22:23 - Intuition of Backpropagation
+35:21 - Demo
+36:59 - What is convergence?
+45:05 - Outro",2022-04-05T09:58:33Z,CampusX,6xO-x8y0YSY
+MLP Memoization | Complete Deep Learning Playlist,"In this video, we'll delve into the concept of Memoization, a technique to enhance performance in Machine Learning. Understand how MLPs benefit from this strategy, making computations more efficient. 
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#Memoization #MachineLearning #MLPTips #Optimization #SimplifiedLearning #DeepLearning #ArtificialIntelligence #efficiencytips 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:21 - What is Memoization?
+02:55 - Code Demo - Fibonacci Sequence
+09:39 - MLP Memoization
+25:05 - Outro",2022-04-07T15:16:41Z,CampusX,rW0eeTXas4k
+Gradient Descent in Neural Networks | Batch vs Stochastics vs Mini Batch Gradient Descent,"This video breaks down Batch, Stochastic, and Mini-Batch methods, explaining their impact on the learning process. Discover the differences between them in simple terms.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code used - https://colab.research.google.com/drive/131xWdpUiy_f87tN0dRpKaEvOxR9DoiSB?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#NeuralNetworks #GradientDescent #MachineLearning #DeepLearning #DataScience #AI #LearningBasics #simplifiedlearning 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:42 - Gradient Descent
+03:05 - Back Propagation Algorithm
+90:00 - Batch Gradient Descent
+15:25 - Questions/Differences
+16:30 - Code Demo
+19:29 - Which is faster to converge?
+23:30 - Stochastic Gradient Descent
+30:09 - Vectorization
+31:02 - Mini Batch Gradient Descent
+35:00 - Why batch size is provided in multiple of 2
+36:12 - What if batch size doesn't divide number of rows?
+37:10 - Code Demo
+37:42 - Outro",2022-04-14T07:24:55Z,CampusX,7z6yXpYk7sw
+Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example,"Learn about the Vanishing and Exploding Gradient Problems in Artificial Neural Networks (ANNs) with practical code examples. Understand the challenges and solutions for training deep networks effectively. Improve your grasp on these important concepts in neural network training. 
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1j1qAWzo6sjNU3f_vkMMijOAuFi1JoV8p?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#GradientProblems #NeuralNetworks #codeexamples 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:11 - Vanishing Gradient Problem
+12:20 - Code Demo
+18:00 - How to handle VG problem
+20:17 - Code Demo
+23:18 - RELU Activation function
+25:27 - Code Demo
+27:28 - Weight Initialization Techniques
+28:11 - Batch Normalization
+28:34 - Residual Network
+31:51 - Outro",2022-04-07T15:14:53Z,CampusX,uCrevbBh0zM
+How to Improve the Performance of a Neural Network,"In this video, we share practical tips on enhancing the performance of your Neural Network.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Notes - https://drive.google.com/file/d/1FsOzMQltwI3CURqL9X6SJ-OBOqSDti1i/view?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#NeuralNetworks #PerformanceImprovement #DeepLearningTips
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:11 - How to improve a neural network?
+09:10 - Fine Tuning Hyperparameters
+29:05 - Outro",2022-04-29T11:58:04Z,CampusX,Ue_6n1yT_R8
+Early Stopping In Neural Networks | End to End Deep Learning Course,"Early stopping is a method in Deep Learning that allows you to specify an arbitrarily large number of training epochs and stop training once the model performance stops improving on the validation dataset.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1JG6PCAa5A0-CLOcKhugqU4uyZXWNjtKP?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!",2022-05-02T11:23:02Z,CampusX,Ygvskt5HadI
+Data Scaling in Neural Network | Feature Scaling in ANN | End to End Deep Learning Course,"Data scaling is a recommended pre-processing step when working with deep learning neural networks. Data scaling can be achieved by normalizing or standardizing real-valued input and output variables.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1lexRUY37fJd6op-WiJicPRB65PwA8YaO?usp=sharing
+
+Video on Standardization: https://www.youtube.com/watch?v=1Yw9sC0PNwY
+Video on Normalization: https://www.youtube.com/watch?v=eBrGyuA2MIg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+03:15 - Code Demo/Feature Scaling
+06:00 - Intuition",2022-05-05T13:20:31Z,CampusX,mzRO0cVppQ0
+Dropout Layer in Deep Learning | Dropouts in ANN | End to End Deep Learning,"Dropout is an approach to regularization in neural networks which helps reduce interdependent learning amongst the neurons. Dropout is used as a regularization technique in order to reduce overfitting.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Dropouts original paper - https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#DeepLearningExplained #DropoutLayers #NeuralNetworks101
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:25 - Problem of Overfitting
+03:52 - Solutions for Overfitting
+06:08 - Dropouts
+13:14 - Why it works?
+18:50 - Random Forest Analogy
+23:45 - How prediction works?
+27:10 - Outro",2022-05-12T12:05:19Z,CampusX,gyTlcHVeBjM
+Dropout Layers in ANN | Code Example | Regression | Classification,"In this video, we explore the power of Dropout Layers with code examples for both Regression and Classification tasks.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Classification Code - https://colab.research.google.com/drive/1KyMLdV1yB0qVdS-1huxKMN9xVKhrfxGL?usp=sharing
+
+Regression Code - https://drive.google.com/file/d/1p9I76sny0zyIX9VNBEivj6TJaFGwj0GG/view?usp=sharing
+
+Paper link - https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!",2022-05-12T12:15:01Z,CampusX,tgIx04ML7-Y
+Regularization in Deep Learning | L2 Regularization in ANN | L1 Regularization | Weight Decay in ANN,"Regularization is a set of techniques that can prevent overfitting in neural networks and thus improve the accuracy of a Deep Learning model when facing completely new data from the problem domain.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1PObj5KrXLDDmHjoJ1x0bVmxAFbif5s7q?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#DeepLearningExplained #RegularizationTechniques #NeuralNetworksTips
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:40 - Improving NN Performance
+01:53 - Overfitting
+04:52 - Why Neural networks overfit?
+09:08 - Ways to solve overfitting
+12:10 - Regularization
+19:40 - Intuition behind Regularization
+26:38 - Code Demo
+35:35 - Outro",2022-05-20T10:06:56Z,CampusX,4xRonrhtkzc
+"Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function","In artificial neural networks, each neuron forms a weighted sum of its inputs and passes the resulting scalar value through a function referred to as an activation function or transfer function. In this video, we explain the basics of Sigmoid, Tanh, and Relu—important parts of how computers learn.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+✨ Hashtags✨
+#SimpleLearning #ActivationFunctionsExplained #EasyTech
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:47 - What are activation functions?
+03:28 - Importance of AF
+04:58 - Code Demo
+06:38 - Why activation functions are needed?
+11:05 - Ideal Activation function
+18:41 - Sigmoid Activation Function
+20:37 - Advantages
+22:56 - Disadvantages
+36:15 - Tan h Activation Function
+38:00 - Advantages
+39:02 - Disadvantages
+40:17 - Relu Activation Function
+40:50 - Advantages
+42:43 - Disadvantages
+44:24 - Outro",2022-06-01T13:12:51Z,CampusX,7LcUkgzx3AY
+Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2,"This is part 2 of the Activation Function Series. In this video, we will discuss the dying relu problem and then learn about the following variants of Relu activation function:
+
+1. Leaky Relu
+2. Parametric Relu
+3. Elu
+4. Selu
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science! Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+✨ Hashtags✨
+#ActivationFunctions #ReluVariants #NeuralNetworksExplained
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:44 - Dying Relu Problem
+17:12 - Solutions
+20:05 - Leaky Relu
+22:47 - Advantages
+24:29 - Parametric Relu
+25:44 - Exponential Linear Unit
+28:40 - Disadvantages
+29:09 - Scaled Exponential Linear Unit
+33:00 - Outro",2022-06-09T06:30:29Z,CampusX,2OwWs7Hzr9g
+Weight Initialization Techniques | What not to do? | Deep Learning,"In this video, I'll guide you through weight initialization techniques in neural networks and highlight what NOT to do. From common mistakes to misconceptions, I'll help you navigate the dos and don'ts in optimizing your network's performance.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+🧑‍💻Code:
+https://colab.research.google.com/drive/1M4q5yRA0iQXh9h8Y3J7zFGIQzO_Pv9n0?usp=sharing
+
+https://colab.research.google.com/drive/1bsVRmTjYjiQUFee3REHCYeY3vv5r7nfH?usp=sharing
+
+Viz Tool:
+https://www.deeplearning.ai/ai-notes/initialization/
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#WeightInitialization #DeepLearningTips #NeuralNetworks 
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:02 - Why weight initialization is important?
+04:31 - Case 1
+11:16 - Code Example
+14:25 - Sigmoid
+23:47 - Code Example
+26:52 - Case 2
+30:34 - Code Example
+32:08 - Case 3
+41:04 - Code Example
+42:43 - RELU
+43:55 - Random Initialization (Large Values)
+49:07 - Outro",2022-06-23T12:38:08Z,CampusX,2MSY0HwH5Ss
+Xavier/Glorat And He Weight Initialization in Deep Learning,"In this video, I will talk about weight initialization techniques in a Neural network. The following pointers would be discussed:
+
+1.  Weight initialization techniques in neural networks
+2.  Xavier initialization in neural network 
+3.  He initialization in neural network
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+🧑‍💻Code: https://colab.research.google.com/drive/1Z3pWYFWgUKP7htokOj201APi574a3-vY?usp=sharing
+
+Part 1 of this video: https://youtu.be/2MSY0HwH5Ss
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+✨ Hashtags✨
+#NeuralNetworks #WeightInitialization #DeepLearningExplained
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:33 - Insights
+07:01 - Intuition
+14:12 - Code Demo
+16:03 - He Normal 
+17:05 - Uniform Distribution
+18:45 - Initialization in KERAS
+20:33 - Outro",2022-06-25T02:38:30Z,CampusX,nwVOSgcrbQI
+Batch Normalization in Deep Learning | Batch Learning in Keras,"This video explores how Batch Normalization transforms the internal workings of neural networks by normalizing inputs within each mini-batch. By maintaining stable activations throughout the training process, Batch Normalization improves convergence speed and aids in tackling the vanishing/exploding gradient problem.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1473vOd0lCPbRW-co_Rm-_TBXgeajkJZ_?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+00:00 - Intro
+00:40 - What is Batch Normalization
+03:11 - Why use batch Normalization
+06:58 - Internal Co-Variate Shift
+14:40 - Batch Normalization - The How?
+31:41 - Batch Normalization During Test
+35:32 - The Advantages
+39:47 - Keras Implementation
+43:24 - Outro
+
+#DeepLearning #BatchNormalization",2022-07-01T11:32:25Z,CampusX,2AscwXePInA
+Optimizers in Deep Learning | Part 1 | Complete Deep Learning Course,"This video breaks down the key algorithms that fine-tune neural network parameters for optimal performance. From classic techniques like Gradient Descent to advanced methods like Adam and RMSprop, explore how optimizers play a crucial role in training models effectively. Watch to gain insights into choosing the right optimizer for your deep learning tasks and enhancing model convergence. 
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+00:00 - Intro
+00:28 - Intro to Optimizers
+02:33 - Role Of optimizers
+08:00 -Types Of Optimizers
+11:08 - The Challenges?
+21:06 - What next?",2022-07-06T12:18:35Z,CampusX,iCTTnQJn50E
+Exponentially Weighted Moving Average or Exponential Weighted Average | Deep Learning,"Exponentially Weighted Moving Average  is a very important concept to understand Optimization in Deep Learning. It means that as we move forward, we simultaneously calculate the average of the points. In Exponentially Weighted Moving Average, we consider a few points, calculate their approximate weighted average, and then plot the graph. Then consider the next point as we move forward in time, calculate its approximate weighted average of the new set of points, and then again plot the graph and so on.
+
+The catch here is that we are calculating the weighted average, and it means that, we give more weight to some points and less weight to others.
+
+Optimization in Deep Learning like Momentum, RMSProp, and Adam can only be implemented with the help of Exponentially Weighted Moving Average. Thus it is very important to understand it.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:43 - What is EWMA?
+05:13 - Mathematical Formulation
+13:08 - Mathematical Intuition
+16:48 - Python Code Demo
+18:39 - Outro",2022-07-18T12:19:01Z,CampusX,jAqVuYJ8TP8
+SGD with Momentum Explained in Detail with Animations | Optimizers in Deep Learning Part 2,"In this video, we will understand in detail what is Momentum Optimizer in Deep Learning. Momentum Optimizer in Deep Learning is a technique that reduces the time taken to train a model.  The path of learning in mini-batch gradient descent is zig-zag, and not straight. Thus, some time gets wasted in moving in a zig-zag direction. Momentum Optimizer in Deep Learning smooths out the zig-zag path and makes it much straighter, thus reducing the time taken to train the model.
+
+Momentum Optimizer uses Exponentially Weighted Moving Average, which averages out the vertical movement and the net movement is mostly in the horizontal direction. Thus zig-zag path becomes straighter.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Convex Vs Non-convex Cost Function:
+https://www.youtube.com/watch?v=TXVtbgaEyms&t=1s&ab_channel=CampusX
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:24 - Understanding Graphs
+07:13 - Image Representation
+10:41 - Convex vs Non-Convex Optimization
+18:13 - Momentum Optimization
+20:49 - The What?
+24:23 - How to implement the concept Mathematically
+28:41 - Effect of Beta
+34:33 - Problems with Momentum Optimization
+35:54 - Visualization
+38:04 - Outro",2022-07-20T12:13:15Z,CampusX,vVS4csXRlcQ
+Nesterov Accelerated Gradient (NAG) Explained in Detail | Animations | Optimizers in Deep Learning,"The acceleration of momentum can overshoot the minima at the bottom of basins or valleys. Nesterov momentum is an extension of momentum that involves calculating the decaying moving average of the gradients of projected positions in the search space rather than the actual positions themselves.
+
+This has the effect of harnessing the accelerating benefits of momentum whilst allowing the search to slow down when approaching the optima and reduce the likelihood of missing or overshooting it.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:47 - What is NAG?
+09:12 - Mathematical Intuition of NAG
+12:52 - Momentum
+17:59 - Geometric Intuition of NAG
+24:39 - Disadvantages - (1)
+25:55 - KERAS Code Implementation
+27:30 - Outro",2022-07-26T07:34:53Z,CampusX,rKG9E6rce1c
+AdaGrad Explained in Detail with Animations | Optimizers in Deep Learning Part 4,"Adaptive Gradient Algorithm (Adagrad) is an algorithm for gradient-based optimization. The learning rate is adapted component-wise to the parameters by incorporating knowledge of past observations.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:15 - Adaptive Gradient Introduction
+03:42 - Elongated Bowl Problem
+07:22 - Visual Reprensation
+09:42 - How do Optimizers behave?
+17:22 - Mathematical Intuition
+24:20 - Disadvantage
+26:16 - Outro",2022-08-03T04:24:22Z,CampusX,nqL9xYmhEpg
+RMSProp Explained in Detail with Animations | Optimizers in Deep Learning Part 5,"Root Mean Squared Propagation, or RMSProp, is an extension of gradient descent and the AdaGrad version of gradient descent that uses a decaying average of partial gradients in the adaptation of the step size for each parameter.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:15 - What is RMSProp
+03:33 - The Math behind RMSProp
+10:35 - Understanding with Animation
+11:28 - Disadvantages
+12:25 - Outro",2022-08-04T02:55:11Z,CampusX,p0wSmKslWi0
+Adam Optimizer Explained in Detail with Animations | Optimizers in Deep Learning Part 5,"Adaptive Moment Estimation is an algorithm for optimization technique for gradient descent. The method is really efficient when working with large problems involving a lot of data or parameters. It requires less memory and is efficient. Intuitively, it is a combination of the ‘gradient descent with momentum’ algorithm and the ‘RMSP’ algorithm.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:40 - What is Adaptive Moment Estimation? ADAM
+05:45 - Math behind ADAM
+11:24 - The Verdict",2022-08-07T08:43:02Z,CampusX,N5AynalXD9g
+Keras Tuner | Hyperparameter Tuning a Neural Network,"KerasTuner is an easy-to-use, scalable hyperparameter optimization framework that solves the pain points of hyperparameter search. Easily configure your search space with a define-by-run syntax, then leverage one of the available search algorithms to find the best hyperparameter values for your models. KerasTuner comes with Bayesian Optimization, Hyperband, and Random Search algorithms built-in, and is also designed to be easy for researchers to extend in order to experiment with new search algorithms.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+00:00 - Intro
+01:16 - Usage
+02:25 - Code Example
+
+#Keras #KerasTuner",2022-08-11T07:58:43Z,CampusX,oYnyNLj8RMA
+What is Convolutional Neural Network (CNN) | CNN Intution,"In this video, we will start our discussion around CNN. CNNs are one of the most popular neural network architectures. CNNs are used extensively in image-related data in applications like image classification, object detection, etc.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+⌚Time Stamps⌚
+
+0:00 - Intro
+1:25 - What are CNNs
+6:56 - Why not use ANNs?
+12:56 - CNN Intuition
+19:33 - CNN Applications
+23:55 - CNN Roadmap
+26:49 - Outro
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!",2022-08-17T12:03:13Z,CampusX,hDVFXf74P-U
+CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN,"In this video, we will discuss the history of CNNs. We will discuss how CNNs are inspired by our own Visual Cortex, we will also discuss about the famous Cat Experiment conducted by Hubel and Weisel that led to the discovery of CNNs.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:58 - Human Visual Cortex
+05:10 - The Cat Experiment
+08:32 - Conclusion
+11:56 - Development
+14:51 - Outro",2022-08-19T10:27:16Z,CampusX,aslTGS9ef98
+CNN Part 3 | Convolution Operation,"Convolution is one of the main building blocks of a CNN. The term convolution refers to the mathematical combination of two functions to produce a third function. It merges two sets of information.
+
+In the case of a CNN, the convolution is performed on the input data with the use of a filter or kernel (these terms are used interchangeably) to then produce a feature map.
+
+We execute a convolution by sliding the filter over the input. At every location, matrix multiplication is performed and sums the result onto the feature map.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Demo used in the video - https://deeplizard.com/resource/pavq7noze2
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:39 - Recap
+03:45 - Basics of Images
+07:33 - Edge Detection
+15:20 - 17:40 - Filters in CNN are managed by back propagation😊
+22:30 - 26:45 - Shape of the filter output(Grey scale and RGB)
+26:50 - 28:39 - Multiple filters
+28:40 - Outro",2022-08-23T10:43:43Z,CampusX,cgJx3GvQ5y8
+Padding & Strides in CNN | CNN Lecture 4 | Deep Learning,"Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code used - https://colab.research.google.com/drive/1HBMLctcBnhvV6Rj62Zc8eAXERQw54l2H?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:23 - Why is padding required?
+02:40 - What is Padding?
+07:20 - KERAS Demo
+09:58 - Strides
+15:53 - Special Case with Strides
+19:48 - Why are Strides required?
+21:34 - Code Demo
+23:56 - Outro",2022-08-27T07:07:22Z,CampusX,btWE6SsdDZA
+Pooling Layer in CNN | MaxPooling in Convolutional Neural Network,"The pooling operation involves sliding a two-dimensional filter over each channel of the feature map and summarising the features lying within the region covered by the filter.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Code - https://colab.research.google.com/drive/1F4F6Q9O-hPvCDeOWcqMUa5BuBOvuOBWc?usp=sharing
+Demo - https://deeplizard.com/resource/pavq7noze3
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:36 - The Problem with Convolution
+05:10 - What is translation variance?
+07:46 - What is Pooling?
+13:05 - Pooling Demo
+15:01 - Pooling on Volumes
+16:37 - KERAS Demo
+18:14 - Advantages of Pooling
+22:47 - Types of Pooling
+25:36 - Disadvantages of Pooling
+27:42 - Outro",2022-09-02T03:34:26Z,CampusX,DwmGefkowCU
+CNN Architecture | LeNet -5 Architecture,"In this tutorial, we unravel the layers and workings of LeNet-5, a pioneering CNN architecture. Whether you're a student, developer, or just curious about neural networks, this video provides an accessible breakdown of LeNet-5. Watch now to deepen your understanding of CNNs and their applications in the field of deep learning!
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:19 - CNN Architecture/RECAP
+09:47 - LeNET
+16:15 - Code Example
+19:20 - Outro",2022-09-03T02:31:25Z,CampusX,ewsvsJQOuTI
+Comparing CNN Vs ANN  | CampusX,"Know the differences between Convolutional Neural Networks (CNNs) and Artificial Neural Networks (ANNs) in our latest video. We explore the unique architectures of CNNs and ANNs, comparing their structures, applications, and strengths. 
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+00:45 - CNN vs ANN
+12:00 - Learnable Parameters
+17:23 - Outro",2022-09-08T11:16:21Z,CampusX,niE5DRKvD_E
+Backpropagation in CNN | Part 1 | Deep Learning,"This is part 1 of a 3-part series where we will discuss in detail how the backpropagation algorithm works in a CNN.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+02:12 - Back Propogation in CNN
+05:50 - Trainable Parameters
+11:39 - Logical Flow
+13:07 - Forward Propogation
+35:33 - Outro",2022-09-10T10:33:32Z,CampusX,RvCCFttGFMY
+"CNN Backpropagation Part 2 | How Backpropagation works on Convolution, Maxpooling and Flatten Layers","This video explains in great detail how the backpropagation algorithm works in the case of CNN. We will learn how to apply backprop on flatten, maxpooling and convolution layers.
+
+I recommend you watch the 1st part before watching this one. Here is the link:
+https://www.youtube.com/watch?v=RvCCFttGFMY&ab_channel=CampusX
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - intro
+00:05 - Backpropagation in CNN explained for convolution, max pooling, and flatten layers
+01:23 - Recap/Back Propogation in CNN
+02:46 - Backpropagation involves applying gradients to update weights and calculate loss
+07:46 - Changing w1 affects Z1.
+11:53 - Backpropagation in Maxpooling Layers
+17:31 - Backpropagation on max pooling works by selecting the maximum item in each window
+21:23 - The Backpropagation process involves minimizing the inverse of max pooling and calculating the derivative of Z1.
+25:07 - Backpropagation process for Convolution, Maxpooling, and Flatten layers
+30:48 - Backpropagation involves expanding and differentiating expressions to calculate derivatives.
+36:35 - Backpropagation involves multiplication and deconvolution operations.",2022-09-15T10:32:29Z,CampusX,OoSDzOodY3Y
+Cat Vs Dog Image Classification Project | Deep Learning Project | CNN Project,"Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+Dataset used - https://www.kaggle.com/datasets/salader/dogs-vs-cats
+
+Google Colab Notebook - https://colab.research.google.com/drive/14hUmYnsOV-laGY6XjMSXqmoB9E-g5McV?usp=sharing
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:15 - Kaggle Dataset
+03:15 - Code Exmaple",2022-09-18T17:27:23Z,CampusX,0K4J_PTgysc
+Data Augmentation in Deep Learning | CNN,"In this tutorial, we explore the concept of Data Augmentation, a technique that enhances model performance by diversifying training data.
+
+Digital Notes for Deep Learning: https://shorturl.at/NGtXg
+
+============================
+Do you want to learn from me?
+Check my affordable mentorship program at : https://learnwith.campusx.in
+============================
+
+📱 Grow with us:
+CampusX' LinkedIn: https://www.linkedin.com/company/campusx-official
+CampusX on Instagram for daily tips: https://www.instagram.com/campusx.official
+My LinkedIn: https://www.linkedin.com/in/nitish-singh-03412789
+Discord: https://discord.gg/PsWu8R87Z8
+
+👍If you find this video helpful, consider giving it a thumbs up and subscribing for more educational videos on data science!
+
+💭Share your thoughts, experiences, or questions in the comments below. I love hearing from you!
+
+⌚Time Stamps⌚
+
+00:00 - Intro
+01:15 - What is Data Augmentation?
+07:15 - Code Implementation",2022-09-18T17:31:21Z,CampusX,sM2C-SsREgM
