@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educ8</title>
+    <link rel="stylesheet" href="course.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <h1>EDUCA8</h1>
+        </div>
+        
+        
+<!-- new code -->
+                 <div class="navbar-search">
+                    <span class="material-icons search-icon">search</span>
+                    <input type="text" id="search" placeholder="Search...">
+                    <button id="micBtn">
+                        <span class="material-icons mic-icon">mic</span>
+                    </button>
+                </div>
+            
+
+
+
+
+
+
+
+
+        </button>
+        </div>
+
+        <div class="navbar-links">
+            <a href="#courses">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#services">Services</a>
+            <a href="#register">Register Now</a>
+
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <!-- <header class="header">
+        <h1>Video Player</h1>
+    </header> -->
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Video Player Section -->
+        <div class="video-player">
+            <video id="main-video" controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2 id="video-title">Sample Video Title</h2>
+            <p id="video-description">This is the description of the main video. You can update it based on the selected video.</p>
+        </div>
+
+        <!-- Suggestions Section -->
+        <aside class="suggestions">
+            <h3>Suggestions</h3>
+            <div class="suggested-video" onclick="playSuggestedVideo('video1.mp4', 'Suggested Video 1', 'Description for Video 1')">
+                <img src="thumbnail1.jpg" alt="Video 1 Thumbnail">
+                <p>Suggested Video 1</p>
+            </div>
+            <div class="suggested-video" onclick="playSuggestedVideo('video2.mp4', 'Suggested Video 2', 'Description for Video 2')">
+                <img src="thumbnail2.jpg" alt="Video 2 Thumbnail">
+                <p>Suggested Video 2</p>
+            </div>
+            <div class="suggested-video" onclick="playSuggestedVideo('video3.mp4', 'Suggested Video 3', 'Description for Video 3')">
+                <img src="thumbnail3.jpg" alt="Video 3 Thumbnail">
+                <p>Suggested Video 3</p>
+            </div>
+        </aside>
+    </div>
+
+    <script src="course.js"></script>
+    
+  <script>
+    window.embeddedChatbotConfig = {
+      chatbotId: "NK0MBNjh2kVXrO3_qtiiT",
+      domain: "www.chatbase.co"
+    }
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" chatbotId="NK0MBNjh2kVXrO3_qtiiT" domain="www.chatbase.co" defer>
+  </script>
+</body>
+</html>
