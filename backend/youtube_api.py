@@ -19,8 +19,9 @@ def main():
 
     request = youtube.playlistItems().list(
         part="snippet",
-        playlistId="PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
-        maxResults=83            # For the number of videos from the playlist
+        # playlistId="PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn",
+        playlistId="PLF_7kfnwLFCE-Ez19Bpn-pmE7wjBmx7Ix",
+        maxResults=14            # For the number of videos from the playlist
     )
     response = request.execute()
 
@@ -30,7 +31,7 @@ def main():
 
     # Try writing to the JSON file
     try:
-        with open('youtube_api.json', 'w') as f:
+        with open('youtube_api.json', 'a') as f:
             json.dump(response, f, indent=4)
         print("Data written successfully to youtube_api.json")
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -64,6 +64,79 @@
     
     // Call fetching function to test
     fetching();
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Courses</title>
+</head>
+<body>
+    <div id="course-container" class="course-container"></div>
+
+    <script>
+        async function getRecommendations(videoId) {
+            try {
+                const response = await fetch('http://127.0.0.1:8000/recommend/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ course_id: videoId }), // The key must match what the FastAPI backend expects
+                });
+        
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+        
+                let recommendedCourses = [];
+                const data = await response.json();
+                for (let i = 0; i < data.recommended_courses.length; i++) {
+                    recommendedCourses.push(data.recommended_courses[i].videoId);
+                    console.log('Recommended Course ID:', data.recommended_courses[i].videoId);
+                }
+                return recommendedCourses;
+            } catch (error) {
+                console.error('Error fetching recommendations:', error);
+            }
+        }
+        
+        async function fetching() {
+            let new_courses = await getRecommendations('sM2C-SsREgM');
+            console.log(new_courses);
+            populateHTML(new_courses);
+        }
+        
+        function populateHTML(courseIds) {
+            const container = document.getElementById('course-container'); // Ensure this container exists in your HTML
+            container.innerHTML = ''; // Clear any previous content
+        
+            courseIds.forEach(videoId => {
+                // Create an iframe element for each recommended course
+                const iframeElement = document.createElement('iframe');
+                iframeElement.src = `https://www.youtube.com/embed/${videoId}`;
+                iframeElement.width = '560';  // Set width of iframe
+                iframeElement.height = '315'; // Set height of iframe
+                iframeElement.frameborder = '0';
+                iframeElement.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframeElement.allowfullscreen = true;
+
+                // Optionally, add a title for the iframe
+                const titleElement = document.createElement('p');
+                titleElement.textContent = `Video ID: ${videoId}`;
+
+                // Append title and iframe to the container
+                container.appendChild(titleElement);
+                container.appendChild(iframeElement);
+            });
+        }
+
+        // Call the fetching function to test
+        fetching();
     </script>
 </body>
 </html>
