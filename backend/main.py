@@ -53,6 +53,60 @@
     
 #     return {"recommendations": recommendations}
 
+# from fastapi import FastAPI, HTTPException
+# from fastapi.middleware.cors import CORSMiddleware
+# from pydantic import BaseModel
+# import pandas as pd
+# from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.metrics.pairwise import linear_kernel
+
+# # Load your dataset (make sure to specify the correct path)
+# df = pd.read_csv('youtube_api.csv')  # Assuming columns like 'course_id', 'name', 'description', 'video_id'
+
+# # Build the TF-IDF matrix
+# tfidf_vectorizer = TfidfVectorizer(stop_words='english')
+# tfidf_matrix = tfidf_vectorizer.fit_transform(df['description'])
+
+# # FastAPI setup
+# app = FastAPI()
+
+# # Add CORS middleware
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["http://127.0.0.1:3000"],  # Allow requests from your frontend origin
+#     allow_credentials=True,
+#     allow_methods=["*"],  # Allow all HTTP methods
+#     allow_headers=["*"],  # Allow all headers
+# )
+
+# # Request model
+# class CourseIDRequest(BaseModel):
+#     course_id: str
+
+# @app.post("/recommend/")
+# async def recommend_courses_by_id(request: CourseIDRequest):
+#     # Get the course_id from the request
+#     input_course_id = request.course_id
+    
+#     # Check if the course ID exists
+#     if input_course_id not in df['videoId'].values:
+#         raise HTTPException(status_code=404, detail="Course ID not found")
+
+#     # Get the index of the input course
+#     input_index = df.index[df['videoId'] == input_course_id].tolist()[0]
+
+#     # Compute cosine similarity scores
+#     cosine_similarities = linear_kernel(tfidf_matrix[input_index], tfidf_matrix).flatten()
+
+#     # Get top recommended courses (excluding the input course itself)
+#     similar_indices = cosine_similarities.argsort()[-19:-1][::-1]
+#     recommended_courses = df.iloc[similar_indices][['title', 'videoId','channelTitle']]
+
+#     # Convert recommended courses to a list of dictionaries for the response
+#     response = recommended_courses.to_dict(orient='records')
+    
+#     return {"recommended_courses": response}
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -60,12 +114,16 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
-# Load your dataset (make sure to specify the correct path)
-df = pd.read_csv('youtube_api.csv')  # Assuming columns like 'course_id', 'name', 'description', 'video_id'
+# Load your dataset (ensure the correct path is specified)
+df = pd.read_csv('youtube_api.csv')  # Assuming columns like 'course_id', 'name', 'description', 'videoId'
 
-# Build the TF-IDF matrix
-tfidf_vectorizer = TfidfVectorizer(stop_words='english')
-tfidf_matrix = tfidf_vectorizer.fit_transform(df['description'])
+# Build the TF-IDF matrix for descriptions (for recommendations)
+tfidf_vectorizer_desc = TfidfVectorizer(stop_words='english')
+tfidf_matrix_desc = tfidf_vectorizer_desc.fit_transform(df['description'])
+
+# Build the TF-IDF matrix for titles (for search functionality)
+tfidf_vectorizer_title = TfidfVectorizer(stop_words='english')
+tfidf_matrix_title = tfidf_vectorizer_title.fit_transform(df['title'])
 
 # FastAPI setup
 app = FastAPI()
@@ -79,30 +137,42 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-# Request model
+# Request models
 class CourseIDRequest(BaseModel):
     course_id: str
 
+class SearchRequest(BaseModel):
+    query: str
+
 @app.post("/recommend/")
 async def recommend_courses_by_id(request: CourseIDRequest):
-    # Get the course_id from the request
     input_course_id = request.course_id
     
-    # Check if the course ID exists
     if input_course_id not in df['videoId'].values:
         raise HTTPException(status_code=404, detail="Course ID not found")
 
-    # Get the index of the input course
     input_index = df.index[df['videoId'] == input_course_id].tolist()[0]
 
-    # Compute cosine similarity scores
-    cosine_similarities = linear_kernel(tfidf_matrix[input_index], tfidf_matrix).flatten()
+    cosine_similarities = linear_kernel(tfidf_matrix_desc[input_index], tfidf_matrix_desc).flatten()
+    similar_indices = cosine_similarities.argsort()[-19:-1][::-1]
+    recommended_courses = df.iloc[similar_indices][['title', 'videoId', 'channelTitle']]
 
-    # Get top recommended courses (excluding the input course itself)
-    similar_indices = cosine_similarities.argsort()[-6:-1][::-1]
-    recommended_courses = df.iloc[similar_indices][['title', 'videoId','channelTitle']]
-
-    # Convert recommended courses to a list of dictionaries for the response
     response = recommended_courses.to_dict(orient='records')
-    
     return {"recommended_courses": response}
+
+@app.post("/search/")
+async def search_courses(request: SearchRequest):
+    query = request.query
+    
+    # Transform the search query using the title vectorizer
+    query_vector = tfidf_vectorizer_title.transform([query])
+
+    # Compute cosine similarity between the query vector and all course titles
+    cosine_similarities = linear_kernel(query_vector, tfidf_matrix_title).flatten()
+    
+    # Get indices of courses with the highest similarity scores
+    similar_indices = cosine_similarities.argsort()[-5:][::-1]
+    search_results = df.iloc[similar_indices][['title', 'videoId', 'channelTitle']]
+
+    response = search_results.to_dict(orient='records')
+    return {"search_results": response}

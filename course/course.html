@@ -16,6 +16,7 @@
         <div class="navbar-search">
             <span class="material-icons search-icon">search</span>
             <input type="text" id="search" placeholder="Search...">
+            <div id="suggestions-dropdown" class="suggestions-dropdown"></div> <!-- Dropdown for search suggestions -->
             <button id="micBtn">
                 <span class="material-icons mic-icon">mic</span>
             </button>
@@ -32,10 +33,9 @@
     <div class="container">
         <!-- Video Player Section -->
         <div class="video-player">
-            <video id="main-video" controls>
-                <source src="sample-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe id="main-video" width="560" height="315" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
             <h2 id="video-title">Sample Video Title</h2>
             <p id="video-description">This is the description of the main video. You can update it based on the selected video.</p>
         </div>
@@ -46,96 +46,204 @@
             <!-- This will be populated with recommended courses -->
         </aside>
     </div>
+
     <script>
+        let allCourses = [];  // Store all courses initially for filtering
+
         async function getRecommendations(videoId) {
             try {
-                // Make the API request
                 const response = await fetch('http://127.0.0.1:8000/recommend/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ course_id: videoId }), // This key should match what the backend expects
+                    body: JSON.stringify({ course_id: videoId }),
                 });
-    
-                // Handle non-200 HTTP responses
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
-    
-                // Parse response data
+
                 const data = await response.json();
-                console.log('API Response:', data); // Debug: See the API response
-    
-                // Extract and collect video IDs
-                let recommendedCourses = [];
                 if (data && data.recommended_courses) {
-                    for (let i = 0; i < data.recommended_courses.length; i++) {
-                        recommendedCourses.push(data.recommended_courses[i].videoId);
-                        console.log('Recommended Course ID:', data.recommended_courses[i].videoId); // Debug: See each videoId
-                    }
-                } else {
-                    console.warn('No recommended courses found in API response.');
+                    allCourses = data.recommended_courses.map(course => ({
+                        videoId: course.videoId,
+                        title: course.title,
+                    }));
                 }
-                return recommendedCourses;
+                return allCourses;
             } catch (error) {
                 console.error('Error fetching recommendations:', error);
             }
         }
-    
+
         async function fetching() {
-            // Test with a sample videoId (replace 'sM2C-SsREgM' as needed)
-            let new_courses = await getRecommendations('tXXnxjj2wM4');
-            console.log('New Courses:', new_courses); // Debug: Ensure courses are fetched
-            populateHTML(new_courses);
+            await getRecommendations('kKWsJGKcMvo');  // Load all courses once
+            displayMainVideo(allCourses[allCourses.length - 1]);  // Display last course by default
+            populateHTML(allCourses);
         }
-    
-        function populateHTML(courseIds) {
-            // Select the main container to append videos to (Assuming it is `.container`)
-            const container = document.querySelector('.container'); // Adjust the selector to your main section
-    
-            if (!container) {
-                console.error('Main container not found.');
-                return;
-            }
-    
-            // Populate container with video iframes
-            if (courseIds && courseIds.length > 0) {
-                courseIds.forEach(videoId => {
-                    // Create a wrapper for each recommended video
+
+        let searchTimeout;
+
+        async function searchCourses(keyword) {
+        try {
+            const response = await fetch(`http://127.0.0.1:8000/search/${keyword}`);
+            if (!response.ok) throw new Error('Error fetching search results');
+            const data = await response.json();
+            return data.recommended_courses;
+        } catch (error) {
+            console.error('Error fetching search results:', error);
+            return [];
+        }
+    }
+
+    // Update the search suggestions display
+    // function displaySearchSuggestions(suggestions) {
+    //     const suggestionsContainer = document.getElementById('search-suggestions');
+    //     suggestionsContainer.innerHTML = '';
+    //     suggestionsContainer.style.display = suggestions.length ? 'block' : 'none';
+
+    //     suggestions.forEach(course => {
+    //         const suggestionItem = document.createElement('p');
+    //         suggestionItem.textContent = course.title;
+    //         suggestionItem.addEventListener('click', () => {
+    //             displayMainVideo(course); // Populate the main video area with clicked item
+    //             populateHTML(suggestions); // Display all suggested videos below
+    //         });
+    //         suggestionsContainer.appendChild(suggestionItem);
+    //     });
+    // }
+
+    // document.getElementById('search').addEventListener('input', (event) => {
+    //     clearTimeout(searchTimeout);
+    //     const keyword = event.target.value;
+    //     if (keyword.trim()) {
+    //         searchTimeout = setTimeout(async () => {
+    //             const suggestions = await searchCourses(keyword);
+    //             displaySearchSuggestions(suggestions);
+    //         }, 300);
+    //     } else {
+    //         displaySearchSuggestions([]);
+    //     }
+    // });
+
+    // Enter key to populate suggestions and make request
+    document.getElementById('search').addEventListener('keydown', async (event) => {
+        if (event.key === 'Enter') {
+            const keyword = event.target.value;
+            const query = event.target.value.trim();
+            const searchResults = await fetchSearchResults(query);
+            // const suggestions = await searchCourses(query);
+            populateHTML(searchResults); // Display suggestions below main video
+            // getRecommendations(suggestions[0].videoId); // Update all courses with search results
+            // displaySearchSuggestions([]); // Clear dropdown after Enter key
+        }
+    });
+
+        function displayMainVideo(course) {
+            const mainVideo = document.getElementById('main-video');
+            mainVideo.style.position = '';
+            const videoTitle = document.getElementById('video-title');
+            const videoDescription = document.getElementById('video-description');
+
+            mainVideo.src = `https://www.youtube.com/embed/${course.videoId}?rel=0&modestbranding=1&showinfo=0&iv_loadpolicy=3`;
+            mainVideo.style.height = '450px';
+            videoTitle.textContent = course.title;
+            videoTitle.style.cursor = 'pointer';
+            videoDescription.textContent = `Description for ${course.title}`;
+        }
+
+        function populateHTML(courses) {
+            const suggestionsContainer = document.getElementById('suggestions-container');
+            suggestionsContainer.innerHTML = '';
+
+            if (courses && courses.length > 0) {
+                courses.forEach(course => {
                     const wrapperDiv = document.createElement('div');
                     wrapperDiv.className = 'recommended-video';
-    
-                    // Create an iframe for each videoId
-                    const iframeElement = document.createElement('iframe');
-                    iframeElement.src = `https://www.youtube.com/embed/${videoId}`;
-                    iframeElement.width = '560';  // Set width of iframe
-                    iframeElement.height = '315'; // Set height of iframe
-                    iframeElement.frameborder = '0';
-                    iframeElement.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-                    iframeElement.allowfullscreen = true;
-    
-                    // Optionally, add a title for the iframe
+
+                    wrapperDiv.addEventListener('click', () => displayMainVideo(course));
+
                     const titleElement = document.createElement('p');
-                    titleElement.textContent = `Recommended Video ID: ${videoId}`;
-    
-                    // Append title and iframe to the wrapper, and then to the container
+                    titleElement.textContent = course.title;
+                    titleElement.style.cursor = 'pointer';
+
+                    const thumbnail = document.createElement('img');
+                    thumbnail.src = `https://img.youtube.com/vi/${course.videoId}/0.jpg`;
+                    thumbnail.alt = course.title;
+                    thumbnail.width = 280;
+                    thumbnail.height = 157;
+
+                    wrapperDiv.appendChild(thumbnail);
                     wrapperDiv.appendChild(titleElement);
-                    wrapperDiv.appendChild(iframeElement);
-                    container.appendChild(wrapperDiv);
+                    suggestionsContainer.appendChild(wrapperDiv);
                 });
             } else {
-                // No valid courses
                 const noDataMessage = document.createElement('p');
                 noDataMessage.textContent = 'No recommendations available.';
-                container.appendChild(noDataMessage);
+                suggestionsContainer.appendChild(noDataMessage);
             }
         }
-        // Call the fetching function on page load
+
+        // Fetch search results based on the query
+        async function fetchSearchResults(query) {
+            try {
+                const response = await fetch('http://127.0.0.1:8000/search/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                return data.search_results || [];
+            } catch (error) {
+                console.error('Error fetching search results:', error);
+                return [];
+            }
+        }
+
+        // Display search suggestions
+        function showSearchSuggestions(courses) {
+            const dropdown = document.getElementById('suggestions-dropdown');
+            dropdown.innerHTML = '';
+
+            courses.forEach(course => {
+                const suggestionItem = document.createElement('div');
+                suggestionItem.className = 'suggestion-item';
+                suggestionItem.textContent = course.title;
+                suggestionItem.addEventListener('click', () => {
+                    displayMainVideo(course); // Display selected course in main video
+                    dropdown.innerHTML = '';  // Clear suggestions after selection
+                });
+                dropdown.appendChild(suggestionItem);
+            });
+
+            dropdown.style.display = courses.length > 0 ? 'block' : 'none';
+        }
+
+        // Handle search input and update suggestions in real time
+        // document.getElementById('search').addEventListener('input', async (event) => {
+        //     const query = event.target.value.trim();
+
+        //     if (query.length > 0) {
+        //         const searchResults = await fetchSearchResults(query);
+        //         showSearchSuggestions(searchResults);
+        //     } else {
+        //         document.getElementById('suggestions-dropdown').style.display = 'none';
+        //     }
+        // });
+
+        // Call fetching function on page load
         fetching();
     </script>
-    
-    <!-- <script src="course.js"></script> -->
+
+    <script src="course.js"></script>
     <script src="https://www.chatbase.co/embed.min.js" chatbotId="NK0MBNjh2kVXrO3_qtiiT" domain="www.chatbase.co" defer></script>
 </body>
 </html>

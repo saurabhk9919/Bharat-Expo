@@ -1,5 +1,423 @@
+What is Machine Learning? | 100 Days of Machine Learning
+AI Vs ML Vs DL for Beginners in Hindi
+Types of Machine Learning for Beginners | Types of Machine learning in Hindi | Types of ML in Depth
+Batch Machine Learning | Offline Vs Online Learning | Machine Learning Types
+Online Machine Learning | Online Learning | Online Vs Offline Machine Learning
+Instance-Based Vs Model-Based Learning | Types of Machine Learning
+Challenges in Machine Learning | Problems in Machine Learning
+Application of Machine Learning | Real Life Machine Learning Applications
+Machine Learning Development Life Cycle | MLDLC in Data Science
+Data Engineer Vs Data Analyst Vs Data Scientist Vs ML Engineer | Data Science Job Roles
+What are Tensors | Tensor In-depth Explanation | Tensor in Machine Learning
+Installing Anaconda For Data Science | Jupyter Notebook for Machine Learning | Google Colab for ML
+End to End Toy Project | Day 13 | 100 Days of Machine Learning
+How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively
+Organic Chemistry | Reaction Mechanism 01 | Types of Attacking Reagants : Electrophile n Nucleophile
+Organic Chemistry | Reaction Mechanism 02 | Free Radical Substitution 01 | Halogenation of Alkane
+Reaction Mechanism 03 | Free Radical Substitution 02 | Selectivity in Halogenation JEE MAINS/NEET
+Reaction Mechanism 04 || Free Radical Substitution 03 | Allylic Substitution - NBS JEE MAINS/NEET
+Reaction Mechanism 05 | Electrophilic Substitution 01 : Chlorination , Nitration in BENZENE JEE/NEET
+Reaction Mechanism 06 | Electrophilic Substitution 02 : FRIEDEL CRAFT REACTION - JEE MAINS/NEET
+Reaction Mechanism 07| Electrophilic Substitution 03 :Effect of Substituent on Reactivity Of Benzene
+Reaction Mechanism 08 | Nucleophilic Substitution 01 :LEAVING GROUP Tendency JEE MAINS/NEET
+Reaction Mechanism 09 | Nucleophilic Substitution 02 : SN1 Reaction and Mechanism JEE MAINS/NEET
+Reaction Mechanism 10 | Nucleophilic Substitution 03 : SN2 Reaction and Mechanism JEE MAINS/NEET
+Reaction Mechanism 11 | Electrophilic Addition 01: Addition of HX to Alkene : Markovnikov's rule
+Reaction Mechanism 12 || Free Radical Addition : Anti Markovnikov's Rule : JEE MAINS/NEET ||
+Reaction Mechanism 13 || Electrophilic  Addition 02 : ANTI Addition of Bromine : JEE MAINS/NEET ||
+Reaction Mechanism 14 || Elimination Reaction 01 || E1 Reaction : JEE MAINS/NEET ||
+Organic Chemistry | Reaction Mechanism 01 | Types of Attacking Reagants : Electrophile n Nucleophile
+Organic Chemistry | Reaction Mechanism 02 | Free Radical Substitution 01 | Halogenation of Alkane
+Reaction Mechanism 03 | Free Radical Substitution 02 | Selectivity in Halogenation JEE MAINS/NEET
+Reaction Mechanism 04 || Free Radical Substitution 03 | Allylic Substitution - NBS JEE MAINS/NEET
+Reaction Mechanism 05 | Electrophilic Substitution 01 : Chlorination , Nitration in BENZENE JEE/NEET
+Reaction Mechanism 06 | Electrophilic Substitution 02 : FRIEDEL CRAFT REACTION - JEE MAINS/NEET
+Reaction Mechanism 07| Electrophilic Substitution 03 :Effect of Substituent on Reactivity Of Benzene
+Reaction Mechanism 08 | Nucleophilic Substitution 01 :LEAVING GROUP Tendency JEE MAINS/NEET
+Reaction Mechanism 09 | Nucleophilic Substitution 02 : SN1 Reaction and Mechanism JEE MAINS/NEET
+Reaction Mechanism 10 | Nucleophilic Substitution 03 : SN2 Reaction and Mechanism JEE MAINS/NEET
+Reaction Mechanism 11 | Electrophilic Addition 01: Addition of HX to Alkene : Markovnikov's rule
+Reaction Mechanism 12 || Free Radical Addition : Anti Markovnikov's Rule : JEE MAINS/NEET ||
+Reaction Mechanism 13 || Electrophilic  Addition 02 : ANTI Addition of Bromine : JEE MAINS/NEET ||
+Reaction Mechanism 14 || Elimination Reaction 01 || E1 Reaction : JEE MAINS/NEET ||
+What is Machine Learning? | 100 Days of Machine Learning
+AI Vs ML Vs DL for Beginners in Hindi
+Types of Machine Learning for Beginners | Types of Machine learning in Hindi | Types of ML in Depth
+Batch Machine Learning | Offline Vs Online Learning | Machine Learning Types
+Online Machine Learning | Online Learning | Online Vs Offline Machine Learning
+Instance-Based Vs Model-Based Learning | Types of Machine Learning
+Challenges in Machine Learning | Problems in Machine Learning
+Application of Machine Learning | Real Life Machine Learning Applications
+Machine Learning Development Life Cycle | MLDLC in Data Science
+Data Engineer Vs Data Analyst Vs Data Scientist Vs ML Engineer | Data Science Job Roles
+What are Tensors | Tensor In-depth Explanation | Tensor in Machine Learning
+Installing Anaconda For Data Science | Jupyter Notebook for Machine Learning | Google Colab for ML
+End to End Toy Project | Day 13 | 100 Days of Machine Learning
+How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively
+Working with CSV files | Day 15 | 100 Days of Machine Learning
+Working with JSON/SQL | Day 16 | 100 Days of Machine Learning
+Fetching Data From an API | Day 17 | 100 Days of Machine Learning
+Fetching data using Web Scraping | Day 18 | 100 Days of Machine Learning
+Understanding Your Data | Day 19 | 100 Days of Machine Learning
+EDA using Univariate Analysis | Day 20 | 100 Days of Machine Learning
+EDA using Bivariate and Multivariate Analysis | Day 21 | 100 Days of Machine Learning
+Pandas Profiling | Day 22 | 100 Days of Machine Learning
+What is Feature Engineering | Day 23 | 100 Days of Machine Learning
+Feature Scaling - Standardization | Day 24 | 100 Days of Machine Learning
+Feature Scaling - Normalization | MinMaxScaling | MaxAbsScaling | RobustScaling
+Encoding Categorical Data | Ordinal Encoding | Label Encoding
+One Hot Encoding | Handling Categorical Data | Day 27 | 100 Days of Machine Learning
+Column Transformer in Machine Learning | How to use ColumnTransformer in Sklearn
+Machine Learning Pipelines A-Z | Day 29 | 100 Days of Machine Learning
+Function Transformer | Log Transform | Reciprocal Transform | Square Root Transform
+Power Transformer | Box - Cox Transform | Yeo - Johnson Transform
+Binning and Binarization | Discretization | Quantile Binning | KMeans Binning
+Handling Mixed Variables | Feature Engineering
+Handling Date and Time Variables | Day 34 | 100 Days of Machine Learning
+Handling Missing Data | Part 1 | Complete Case Analysis
+Handling missing data | Numerical Data | Simple Imputer
+Handling Missing Categorical Data | Simple Imputer | Most Frequent Imputation | Missing Category Imp
+Missing Indicator | Random Sample Imputation | Handling Missing Data Part 4
+KNN Imputer | Multivariate Imputation | Handling Missing Data Part 5
+Multivariate Imputation by Chained Equations for Missing Value | MICE Algorithm | Iterative Imputer
+What are Outliers | Outliers in Machine Learning
+Outlier Detection and Removal using Z-score Method | Handling Outliers Part 2
+Outlier Detection and Removal using the IQR Method | Handing Outliers Part 3
+Outlier Detection using the Percentile Method | Winsorization Technique
+Feature Construction | Feature Splitting
+Curse of Dimensionality
+Principle Component Analysis  (PCA) | Part 1 | Geometric Intuition
+Principle Component Analysis (PCA) | Part 2 | Problem Formulation and Step by Step Solution
+Principle Component Analysis(PCA) | Part 3 | Code Example and Visualization
+Simple Linear Regression | Code + Intuition | Simplest Explanation in Hindi
+JEE: Organic Reaction Mechanism L1 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L2 | SN2 Nucleophilic Substitution | Unacademy JEE | Anupam Gupta
+JEE: Organic Reaction Mechanism L3 | SN1 Nucleophilic Substitution | Unacademy JEE | Anupam Gupta
+JEE: Organic Reaction Mechanism JPP - 1 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L4 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L5 | SN2Th Mechanism | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L6 | E1 Elimination | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L7 | E2 Elimination | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L8 | E1cB & Ei Elimination | Unacademy JEE | Anupam Gupta
+JEE: Organic Reaction Mechanism JPP - 3 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L9 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L10 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L11 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L12 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L13 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism JPP - 4 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L14 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism L15 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+JEE: Organic Reaction Mechanism JPP - 5 | Unacademy JEE | JEE Chemistry | Anupam Gupta
+Digital Marketing with AI Full Course for Beginners in 4 HOURS - 2024 Updated [No Experience Needed]
+Concentration \ Programming Music 010 (part 2)
+Concentration \ Programming Music 011 (Part 3)
+Concentration \ Programming Music 0100 (Part 4)
+Concentration \ Programming Music 0000 (Part 0)
+Programming / Coding / Hacking music vol.1
+Oblivion complete OST
+Daft Punk - The Grid (Alcala Remix)
+Daft Punk - The Grid (pierrotechnique Remix)
+Tron Legacy - Son Of Flynn (Remix) - Extended!
+Rerezzed: Legacy - The Glitch Mob / Daft Punk Derezzed Remix Music Video
+Daft Punk - Fall (DJ DLG Lazor Remix Music Video)(from the movie TRON: Legacy)[Full 1080 HD]
+Lightbike Battle (from Tron: Uprising) - Joseph Trapanese (3OH!3 and JT Remix)
+The Son of Flynn (Ki:Theory Remix)
+Tron Legacy The Game Has Changed (Ziecon's Remix) DOWNLOAD NOW!!!
+Daft Punk - Adagio For Tron Remix ( youngmoldova ) - Tron 1982 Music Video HD 1080p
+Homeworld 2 - Remastered Edition - Soundtrack
+Mass Effect Trilogy - FULL SOUNDTRACK
+Meet Eddie
+Private video
+Concentration \ Programming Music 010 (part 2)
+Concentration \ Programming Music 011 (Part 3)
+Concentration \ Programming Music 0100 (Part 4)
+Concentration \ Programming Music 0000 (Part 0)
+Programming / Coding / Hacking music vol.1
+Oblivion complete OST
+Daft Punk - The Grid (Alcala Remix)
+Daft Punk - The Grid (pierrotechnique Remix)
+Tron Legacy - Son Of Flynn (Remix) - Extended!
+Rerezzed: Legacy - The Glitch Mob / Daft Punk Derezzed Remix Music Video
+Daft Punk - Fall (DJ DLG Lazor Remix Music Video)(from the movie TRON: Legacy)[Full 1080 HD]
+Lightbike Battle (from Tron: Uprising) - Joseph Trapanese (3OH!3 and JT Remix)
+The Son of Flynn (Ki:Theory Remix)
+Tron Legacy The Game Has Changed (Ziecon's Remix) DOWNLOAD NOW!!!
+Daft Punk - Adagio For Tron Remix ( youngmoldova ) - Tron 1982 Music Video HD 1080p
+Homeworld 2 - Remastered Edition - Soundtrack
+Mass Effect Trilogy - FULL SOUNDTRACK
+Meet Eddie
+Private video
+Concentration \ Programming Music 010 (part 2)
+Concentration \ Programming Music 011 (Part 3)
+Concentration \ Programming Music 0100 (Part 4)
+Concentration \ Programming Music 0000 (Part 0)
+Programming / Coding / Hacking music vol.1
+Oblivion complete OST
+Daft Punk - The Grid (Alcala Remix)
+Daft Punk - The Grid (pierrotechnique Remix)
+Tron Legacy - Son Of Flynn (Remix) - Extended!
+Rerezzed: Legacy - The Glitch Mob / Daft Punk Derezzed Remix Music Video
+Daft Punk - Fall (DJ DLG Lazor Remix Music Video)(from the movie TRON: Legacy)[Full 1080 HD]
+Lightbike Battle (from Tron: Uprising) - Joseph Trapanese (3OH!3 and JT Remix)
+The Son of Flynn (Ki:Theory Remix)
+Tron Legacy The Game Has Changed (Ziecon's Remix) DOWNLOAD NOW!!!
+Daft Punk - Adagio For Tron Remix ( youngmoldova ) - Tron 1982 Music Video HD 1080p
+Homeworld 2 - Remastered Edition - Soundtrack
+Mass Effect Trilogy - FULL SOUNDTRACK
+Meet Eddie
+Private video
+Terminator Genisys FULL SOUNDTRACK OST By Lorne Balfe Official
+battleship (2012) entire soundtrack by Steve Jablonsky
+Iron Man Soundtrack
+'ALTERED CARBON' | Best of Synthwave and Cyberpunk Music Mix
 100 Days of Deep Learning | Course Announcement
 What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
 Types of Neural Networks | History of Deep Learning | Applications of Deep Learning
 What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition
 Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course
+Perceptron Loss Function | Hinge Loss | Binary Cross Entropy | Sigmoid Function
+Problem with Perceptron
+MLP Notation
+Multi Layer Perceptron | MLP Intuition
+Forward Propagation | How a neural network predicts output?
+Customer Churn Prediction using ANN | Keras and Tensorflow | Deep Learning Classification
+Handwritten Digit Classification using ANN | MNIST Dataset
+Graduate Admission Prediction using ANN
+Loss Functions in Deep Learning | Deep Learning | CampusX
+Backpropagation in Deep Learning | Part 1 | The What?
+Backpropagation Part 2 | The How | Complete Deep Learning Playlist
+Backpropagation Part 3 | The Why | Complete Deep Learning Playlist
+MLP Memoization | Complete Deep Learning Playlist
+Gradient Descent in Neural Networks | Batch vs Stochastics vs Mini Batch Gradient Descent
+Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example
+How to Improve the Performance of a Neural Network
+Early Stopping In Neural Networks | End to End Deep Learning Course
+Data Scaling in Neural Network | Feature Scaling in ANN | End to End Deep Learning Course
+Dropout Layer in Deep Learning | Dropouts in ANN | End to End Deep Learning
+Dropout Layers in ANN | Code Example | Regression | Classification
+Regularization in Deep Learning | L2 Regularization in ANN | L1 Regularization | Weight Decay in ANN
+Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function
+Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2
+Weight Initialization Techniques | What not to do? | Deep Learning
+Xavier/Glorat And He Weight Initialization in Deep Learning
+Batch Normalization in Deep Learning | Batch Learning in Keras
+Optimizers in Deep Learning | Part 1 | Complete Deep Learning Course
+Exponentially Weighted Moving Average or Exponential Weighted Average | Deep Learning
+SGD with Momentum Explained in Detail with Animations | Optimizers in Deep Learning Part 2
+Nesterov Accelerated Gradient (NAG) Explained in Detail | Animations | Optimizers in Deep Learning
+AdaGrad Explained in Detail with Animations | Optimizers in Deep Learning Part 4
+RMSProp Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Adam Optimizer Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Keras Tuner | Hyperparameter Tuning a Neural Network
+What is Convolutional Neural Network (CNN) | CNN Intution
+CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
+CNN Part 3 | Convolution Operation
+Padding & Strides in CNN | CNN Lecture 4 | Deep Learning
+Pooling Layer in CNN | MaxPooling in Convolutional Neural Network
+CNN Architecture | LeNet -5 Architecture
+Comparing CNN Vs ANN  | CampusX
+Backpropagation in CNN | Part 1 | Deep Learning
+CNN Backpropagation Part 2 | How Backpropagation works on Convolution, Maxpooling and Flatten Layers
+Cat Vs Dog Image Classification Project | Deep Learning Project | CNN Project
+Data Augmentation in Deep Learning | CNN
+100 Days of Deep Learning | Course Announcement
+What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
+Types of Neural Networks | History of Deep Learning | Applications of Deep Learning
+What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition
+Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course
+Perceptron Loss Function | Hinge Loss | Binary Cross Entropy | Sigmoid Function
+Problem with Perceptron
+MLP Notation
+Multi Layer Perceptron | MLP Intuition
+Forward Propagation | How a neural network predicts output?
+Customer Churn Prediction using ANN | Keras and Tensorflow | Deep Learning Classification
+Handwritten Digit Classification using ANN | MNIST Dataset
+Graduate Admission Prediction using ANN
+Loss Functions in Deep Learning | Deep Learning | CampusX
+Backpropagation in Deep Learning | Part 1 | The What?
+Backpropagation Part 2 | The How | Complete Deep Learning Playlist
+Backpropagation Part 3 | The Why | Complete Deep Learning Playlist
+MLP Memoization | Complete Deep Learning Playlist
+Gradient Descent in Neural Networks | Batch vs Stochastics vs Mini Batch Gradient Descent
+Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example
+How to Improve the Performance of a Neural Network
+Early Stopping In Neural Networks | End to End Deep Learning Course
+Data Scaling in Neural Network | Feature Scaling in ANN | End to End Deep Learning Course
+Dropout Layer in Deep Learning | Dropouts in ANN | End to End Deep Learning
+Dropout Layers in ANN | Code Example | Regression | Classification
+Regularization in Deep Learning | L2 Regularization in ANN | L1 Regularization | Weight Decay in ANN
+Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function
+Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2
+Weight Initialization Techniques | What not to do? | Deep Learning
+Xavier/Glorat And He Weight Initialization in Deep Learning
+Batch Normalization in Deep Learning | Batch Learning in Keras
+Optimizers in Deep Learning | Part 1 | Complete Deep Learning Course
+Exponentially Weighted Moving Average or Exponential Weighted Average | Deep Learning
+SGD with Momentum Explained in Detail with Animations | Optimizers in Deep Learning Part 2
+Nesterov Accelerated Gradient (NAG) Explained in Detail | Animations | Optimizers in Deep Learning
+AdaGrad Explained in Detail with Animations | Optimizers in Deep Learning Part 4
+RMSProp Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Adam Optimizer Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Keras Tuner | Hyperparameter Tuning a Neural Network
+What is Convolutional Neural Network (CNN) | CNN Intution
+CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
+CNN Part 3 | Convolution Operation
+Padding & Strides in CNN | CNN Lecture 4 | Deep Learning
+Pooling Layer in CNN | MaxPooling in Convolutional Neural Network
+CNN Architecture | LeNet -5 Architecture
+Comparing CNN Vs ANN  | CampusX
+Backpropagation in CNN | Part 1 | Deep Learning
+CNN Backpropagation Part 2 | How Backpropagation works on Convolution, Maxpooling and Flatten Layers
+Cat Vs Dog Image Classification Project | Deep Learning Project | CNN Project
+Data Augmentation in Deep Learning | CNN
+100 Days of Deep Learning | Course Announcement
+What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
+Types of Neural Networks | History of Deep Learning | Applications of Deep Learning
+What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition
+Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course
+Perceptron Loss Function | Hinge Loss | Binary Cross Entropy | Sigmoid Function
+Problem with Perceptron
+MLP Notation
+Multi Layer Perceptron | MLP Intuition
+Forward Propagation | How a neural network predicts output?
+Customer Churn Prediction using ANN | Keras and Tensorflow | Deep Learning Classification
+Handwritten Digit Classification using ANN | MNIST Dataset
+Graduate Admission Prediction using ANN
+Loss Functions in Deep Learning | Deep Learning | CampusX
+Backpropagation in Deep Learning | Part 1 | The What?
+Backpropagation Part 2 | The How | Complete Deep Learning Playlist
+Backpropagation Part 3 | The Why | Complete Deep Learning Playlist
+MLP Memoization | Complete Deep Learning Playlist
+Gradient Descent in Neural Networks | Batch vs Stochastics vs Mini Batch Gradient Descent
+Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example
+How to Improve the Performance of a Neural Network
+Early Stopping In Neural Networks | End to End Deep Learning Course
+Data Scaling in Neural Network | Feature Scaling in ANN | End to End Deep Learning Course
+Dropout Layer in Deep Learning | Dropouts in ANN | End to End Deep Learning
+Dropout Layers in ANN | Code Example | Regression | Classification
+Regularization in Deep Learning | L2 Regularization in ANN | L1 Regularization | Weight Decay in ANN
+Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function
+Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2
+Weight Initialization Techniques | What not to do? | Deep Learning
+Xavier/Glorat And He Weight Initialization in Deep Learning
+Batch Normalization in Deep Learning | Batch Learning in Keras
+Optimizers in Deep Learning | Part 1 | Complete Deep Learning Course
+Exponentially Weighted Moving Average or Exponential Weighted Average | Deep Learning
+SGD with Momentum Explained in Detail with Animations | Optimizers in Deep Learning Part 2
+Nesterov Accelerated Gradient (NAG) Explained in Detail | Animations | Optimizers in Deep Learning
+AdaGrad Explained in Detail with Animations | Optimizers in Deep Learning Part 4
+RMSProp Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Adam Optimizer Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Keras Tuner | Hyperparameter Tuning a Neural Network
+What is Convolutional Neural Network (CNN) | CNN Intution
+CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
+CNN Part 3 | Convolution Operation
+Padding & Strides in CNN | CNN Lecture 4 | Deep Learning
+Pooling Layer in CNN | MaxPooling in Convolutional Neural Network
+CNN Architecture | LeNet -5 Architecture
+Comparing CNN Vs ANN  | CampusX
+Backpropagation in CNN | Part 1 | Deep Learning
+CNN Backpropagation Part 2 | How Backpropagation works on Convolution, Maxpooling and Flatten Layers
+Cat Vs Dog Image Classification Project | Deep Learning Project | CNN Project
+Data Augmentation in Deep Learning | CNN
+100 Days of Deep Learning | Course Announcement
+What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
+Types of Neural Networks | History of Deep Learning | Applications of Deep Learning
+What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition
+Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course
+Perceptron Loss Function | Hinge Loss | Binary Cross Entropy | Sigmoid Function
+Problem with Perceptron
+MLP Notation
+Multi Layer Perceptron | MLP Intuition
+Forward Propagation | How a neural network predicts output?
+Customer Churn Prediction using ANN | Keras and Tensorflow | Deep Learning Classification
+Handwritten Digit Classification using ANN | MNIST Dataset
+Graduate Admission Prediction using ANN
+Loss Functions in Deep Learning | Deep Learning | CampusX
+Backpropagation in Deep Learning | Part 1 | The What?
+Backpropagation Part 2 | The How | Complete Deep Learning Playlist
+Backpropagation Part 3 | The Why | Complete Deep Learning Playlist
+MLP Memoization | Complete Deep Learning Playlist
+Gradient Descent in Neural Networks | Batch vs Stochastics vs Mini Batch Gradient Descent
+Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example
+How to Improve the Performance of a Neural Network
+Early Stopping In Neural Networks | End to End Deep Learning Course
+Data Scaling in Neural Network | Feature Scaling in ANN | End to End Deep Learning Course
+Dropout Layer in Deep Learning | Dropouts in ANN | End to End Deep Learning
+Dropout Layers in ANN | Code Example | Regression | Classification
+Regularization in Deep Learning | L2 Regularization in ANN | L1 Regularization | Weight Decay in ANN
+Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function
+Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2
+Weight Initialization Techniques | What not to do? | Deep Learning
+Xavier/Glorat And He Weight Initialization in Deep Learning
+Batch Normalization in Deep Learning | Batch Learning in Keras
+Optimizers in Deep Learning | Part 1 | Complete Deep Learning Course
+Exponentially Weighted Moving Average or Exponential Weighted Average | Deep Learning
+SGD with Momentum Explained in Detail with Animations | Optimizers in Deep Learning Part 2
+Nesterov Accelerated Gradient (NAG) Explained in Detail | Animations | Optimizers in Deep Learning
+AdaGrad Explained in Detail with Animations | Optimizers in Deep Learning Part 4
+RMSProp Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Adam Optimizer Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Keras Tuner | Hyperparameter Tuning a Neural Network
+What is Convolutional Neural Network (CNN) | CNN Intution
+CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
+CNN Part 3 | Convolution Operation
+Padding & Strides in CNN | CNN Lecture 4 | Deep Learning
+Pooling Layer in CNN | MaxPooling in Convolutional Neural Network
+CNN Architecture | LeNet -5 Architecture
+Comparing CNN Vs ANN  | CampusX
+Backpropagation in CNN | Part 1 | Deep Learning
+CNN Backpropagation Part 2 | How Backpropagation works on Convolution, Maxpooling and Flatten Layers
+Cat Vs Dog Image Classification Project | Deep Learning Project | CNN Project
+Data Augmentation in Deep Learning | CNN
+100 Days of Deep Learning | Course Announcement
+What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
+Types of Neural Networks | History of Deep Learning | Applications of Deep Learning
+What is a Perceptron? Perceptron Vs Neuron | Perceptron Geometric Intuition
+Perceptron Trick | How to train a Perceptron | Perceptron Part 2 |  Deep Learning Full Course
+Perceptron Loss Function | Hinge Loss | Binary Cross Entropy | Sigmoid Function
+Problem with Perceptron
+MLP Notation
+Multi Layer Perceptron | MLP Intuition
+Forward Propagation | How a neural network predicts output?
+Customer Churn Prediction using ANN | Keras and Tensorflow | Deep Learning Classification
+Handwritten Digit Classification using ANN | MNIST Dataset
+Graduate Admission Prediction using ANN
+Loss Functions in Deep Learning | Deep Learning | CampusX
+Backpropagation in Deep Learning | Part 1 | The What?
+Backpropagation Part 2 | The How | Complete Deep Learning Playlist
+Backpropagation Part 3 | The Why | Complete Deep Learning Playlist
+MLP Memoization | Complete Deep Learning Playlist
+Gradient Descent in Neural Networks | Batch vs Stochastics vs Mini Batch Gradient Descent
+Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example
+How to Improve the Performance of a Neural Network
+Early Stopping In Neural Networks | End to End Deep Learning Course
+Data Scaling in Neural Network | Feature Scaling in ANN | End to End Deep Learning Course
+Dropout Layer in Deep Learning | Dropouts in ANN | End to End Deep Learning
+Dropout Layers in ANN | Code Example | Regression | Classification
+Regularization in Deep Learning | L2 Regularization in ANN | L1 Regularization | Weight Decay in ANN
+Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function
+Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2
+Weight Initialization Techniques | What not to do? | Deep Learning
+Xavier/Glorat And He Weight Initialization in Deep Learning
+Batch Normalization in Deep Learning | Batch Learning in Keras
+Optimizers in Deep Learning | Part 1 | Complete Deep Learning Course
+Exponentially Weighted Moving Average or Exponential Weighted Average | Deep Learning
+SGD with Momentum Explained in Detail with Animations | Optimizers in Deep Learning Part 2
+Nesterov Accelerated Gradient (NAG) Explained in Detail | Animations | Optimizers in Deep Learning
+AdaGrad Explained in Detail with Animations | Optimizers in Deep Learning Part 4
+RMSProp Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Adam Optimizer Explained in Detail with Animations | Optimizers in Deep Learning Part 5
+Keras Tuner | Hyperparameter Tuning a Neural Network
+What is Convolutional Neural Network (CNN) | CNN Intution
+CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
+CNN Part 3 | Convolution Operation
+Padding & Strides in CNN | CNN Lecture 4 | Deep Learning
+Pooling Layer in CNN | MaxPooling in Convolutional Neural Network
+CNN Architecture | LeNet -5 Architecture
+Comparing CNN Vs ANN  | CampusX
+Backpropagation in CNN | Part 1 | Deep Learning
+CNN Backpropagation Part 2 | How Backpropagation works on Convolution, Maxpooling and Flatten Layers
+Cat Vs Dog Image Classification Project | Deep Learning Project | CNN Project
+Data Augmentation in Deep Learning | CNN

@@ -25,7 +25,7 @@ async function getRecommendations(videoId) {
   }
 
 async function fetching(){
-    let new_courses=await getRecommendations('sM2C-SsREgM');
+    let new_courses=await getRecommendations('tXXnxjj2wM4');
     console.log(new_courses);
 }
 // getRecommendations('sM2C-SsREgM');
